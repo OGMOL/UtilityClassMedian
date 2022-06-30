@@ -2,6 +2,9 @@ import java.util.Arrays;
 
 public class Median {
 
+    private Median() {
+    }
+
     public static double median(double[] arr) {
         Arrays.sort(arr);
         double result;
